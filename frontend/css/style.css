@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --bg-color: #ffffff;
+  --bg-color-transparent: #b3b3b386;
+  --font-color: #000000;
+  --btn-bg-color: #c9c9c9;
+  --accent-color: #a34848;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -45,14 +45,14 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: var(--accent-color);
   box-shadow: var(--header-shadow);
 }
 
 header .container {
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 }
 
 .menu {
